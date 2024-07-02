@@ -6,9 +6,9 @@ async function fetchTopProducts(categoryName, n, page, sort) {
             "expires_in": 1716614735
         }; 
 
-        const response = await axios.get(`http://20.244.56.144/test/categories/${categoryName}/products`, {
+        const response = await axios.get(http://20.244.56.144/test/categories/${categoryName}/products, {
             headers: {
-                'Authorization': `${token_type} ${access_token}`
+                'Authorization': ${token_type} ${access_token}
             },
             params: {
                 n,
@@ -32,9 +32,9 @@ async function fetchProductDetails(categoryName, productId) {
             "expires_in": 1716614735
         }; 
 
-        const response = await axios.get(`http://20.244.56.144/test/categories/${categoryName}/products/${productId}`, {
+        const response = await axios.get(http://20.244.56.144/test/categories/${categoryName}/products/${productId}, {
             headers: {
-                'Authorization': `${token_type} ${access_token}`
+                'Authorization': ${token_type} ${access_token}
             }
         });
 
